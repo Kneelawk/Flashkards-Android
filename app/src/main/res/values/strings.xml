@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Flashkards Android</string>
+    <string name="title_activity_flashcard_viewer">FlashcardViewerActivity</string>
+    <string name="title_activity_flashcard_configure">FlashcardConfigureActivity</string>
+</resources>
