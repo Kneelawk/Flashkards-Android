@@ -101,7 +101,7 @@ private val polyatomicIons = listOf(
         )
     ),
     FlashcardSubset(
-        "Non-Standard Names",
+        "Compound-Based",
         listOf(
             FlashcardData(
                 "Hydroxide".toAnnotatedString(),
@@ -110,6 +110,10 @@ private val polyatomicIons = listOf(
             FlashcardData(
                 "Cyanide".toAnnotatedString(),
                 "CN^-".parseAnnotatedString()
+            ),
+            FlashcardData(
+                "Cyanate".toAnnotatedString(),
+                "NCO^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Peroxide".toAnnotatedString(),
