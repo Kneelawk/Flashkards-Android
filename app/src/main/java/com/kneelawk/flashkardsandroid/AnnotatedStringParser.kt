@@ -90,10 +90,10 @@ object AnnotatedStringParser {
                 }
 
                 is Underscore -> charStyle =
-                    curStyle().copy(baselineShift = BaselineShift.Subscript, fontSize = 14.sp)
+                    curStyle().copy(baselineShift = BaselineShift.Subscript, fontSize = 16.sp)
 
                 is UpArrow -> charStyle =
-                    curStyle().copy(baselineShift = BaselineShift.Superscript, fontSize = 14.sp)
+                    curStyle().copy(baselineShift = BaselineShift.Superscript, fontSize = 16.sp)
 
                 is OpenBrace -> {
                     applyStyle()

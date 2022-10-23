@@ -17,8 +17,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-val Subscript = SpanStyle(baselineShift = BaselineShift.Subscript, fontSize = 14.sp)
-val Superscript = SpanStyle(baselineShift = BaselineShift.Superscript, fontSize = 14.sp)
+val Subscript = SpanStyle(baselineShift = BaselineShift.Subscript, fontSize = 16.sp)
+val Superscript = SpanStyle(baselineShift = BaselineShift.Superscript, fontSize = 16.sp)
 
 @Composable
 fun FlashcardFace(text: AnnotatedString) {
