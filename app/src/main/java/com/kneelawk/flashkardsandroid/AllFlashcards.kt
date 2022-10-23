@@ -116,6 +116,10 @@ private val polyatomicIons = listOf(
                 "O_2^{2-}".parseAnnotatedString()
             ),
             FlashcardData(
+                "Oxalate".toAnnotatedString(),
+                "C_2O_4^{2-}".parseAnnotatedString()
+            ),
+            FlashcardData(
                 "Acetate".toAnnotatedString(),
                 "CH_3COO^-".parseAnnotatedString()
             )
