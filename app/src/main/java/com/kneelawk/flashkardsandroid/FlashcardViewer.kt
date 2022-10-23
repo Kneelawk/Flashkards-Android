@@ -79,36 +79,22 @@ fun FlashcardViewer(cards: List<FlashcardData>, defaultFront: Boolean) {
 private val PreviewData = listOf(
     FlashcardData(
         "Phosphate".toAnnotatedString(),
-        buildAnnotatedString {
-            append("PO")
-            append("4", Subscript)
-            append("3-", Superscript)
-        }
+        "PO_4^{3-}".parseAnnotatedString()
     ),
     FlashcardData(
         "Hydrogen Phosphate".toAnnotatedString(),
-        buildAnnotatedString {
-            append("HPO")
-            append("4", Subscript)
-            append("2-", Superscript)
-        }
+        "HPO_4^{2-}".parseAnnotatedString()
     ),
     FlashcardData(
         "Dihydrogen Phosphate".toAnnotatedString(),
-        buildAnnotatedString {
-            append("H")
-            append("2", Subscript)
-            append("PO")
-            append("4", Subscript)
-            append("-", Superscript)
-        }
+        "H_2PO_4^-".parseAnnotatedString()
     )
 )
 
 @Composable
 @Preview(showBackground = true)
 fun FlashcardViewerPreview() {
-    FlashcardViewer(cards = PreviewData, defaultFront = true)
+    FlashcardViewer(cards = PreviewData, defaultFront = false)
 }
 
 @Composable

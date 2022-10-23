@@ -8,19 +8,11 @@ private val polyatomicIons = listOf(
         listOf(
             FlashcardData(
                 "Mercury (I)".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("Hg")
-                    append("2", Subscript)
-                    append("2+", Superscript)
-                }
+                "Hg_2^{2+}".parseAnnotatedString()
             ),
             FlashcardData(
                 "Ammonium".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("NH")
-                    append("4", Subscript)
-                    append("+", Superscript)
-                }
+                "NH_4^+".parseAnnotatedString()
             )
         )
     ),
@@ -29,19 +21,11 @@ private val polyatomicIons = listOf(
         listOf(
             FlashcardData(
                 "Nitrite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("NO")
-                    append("2", Subscript)
-                    append("-", Superscript)
-                }
+                "NO_2^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Nitrate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("NO")
-                    append("3", Subscript)
-                    append("-", Superscript)
-                }
+                "NO_3^-".parseAnnotatedString()
             )
         )
     ),
@@ -50,35 +34,19 @@ private val polyatomicIons = listOf(
         listOf(
             FlashcardData(
                 "Carbonite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("CO")
-                    append("2", Subscript)
-                    append("2-", Superscript)
-                }
+                "CO_2^{2-}".parseAnnotatedString()
             ),
             FlashcardData(
                 "Carbonate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("CO")
-                    append("3", Subscript)
-                    append("2-", Superscript)
-                }
+                "CO_3^{2-}".parseAnnotatedString()
             ),
             FlashcardData(
                 "Bicarbonite /\nHydrogen Carbonite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("HCO")
-                    append("2", Subscript)
-                    append("-", Superscript)
-                }
+                "HCO_2^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Bicarbonate /\nHydrogen Carbonate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("HCO")
-                    append("3", Subscript)
-                    append("-", Superscript)
-                }
+                "HCO_3^-".parseAnnotatedString()
             ),
         )
     ),
@@ -87,35 +55,19 @@ private val polyatomicIons = listOf(
         listOf(
             FlashcardData(
                 "Sulfite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("SO")
-                    append("3", Subscript)
-                    append("2-", Superscript)
-                }
+                "SO_3^{2-}".parseAnnotatedString()
             ),
             FlashcardData(
                 "Sulfate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("SO")
-                    append("4", Subscript)
-                    append("2-", Superscript)
-                }
+                "SO_4^{2-}".parseAnnotatedString()
             ),
             FlashcardData(
                 "Bisulfite /\nHydrogen Sulfite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("HSO")
-                    append("3", Subscript)
-                    append("-", Superscript)
-                }
+                "HSO_3^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Bisulfate /\nHydrogen Sulfate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("HSO")
-                    append("4", Subscript)
-                    append("-", Superscript)
-                }
+                "HSO_4^-".parseAnnotatedString()
             ),
         )
     ),
@@ -124,55 +76,27 @@ private val polyatomicIons = listOf(
         listOf(
             FlashcardData(
                 "Phosphite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("PO")
-                    append("3", Subscript)
-                    append("3-", Superscript)
-                }
+                "PO_3^{3-}".parseAnnotatedString()
             ),
             FlashcardData(
                 "Phosphate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("PO")
-                    append("4", Subscript)
-                    append("3-", Superscript)
-                }
+                "PO_4^{3-}".parseAnnotatedString()
             ),
             FlashcardData(
                 "Hydrogen Phosphite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("HPO")
-                    append("3", Subscript)
-                    append("2-", Superscript)
-                }
+                "HPO_3^{2-}".parseAnnotatedString()
             ),
             FlashcardData(
                 "Hydrogen Phosphate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("HPO")
-                    append("4", Subscript)
-                    append("2-", Superscript)
-                }
+                "HPO_4^{2-}".parseAnnotatedString()
             ),
             FlashcardData(
                 "Dihydrogen Phosphite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("H")
-                    append("2", Subscript)
-                    append("PO")
-                    append("3", Subscript)
-                    append("-", Superscript)
-                }
+                "H_2PO_3^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Dihydrogen Phosphate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("H")
-                    append("2", Subscript)
-                    append("PO")
-                    append("4", Subscript)
-                    append("-", Superscript)
-                }
+                "H_2PO_4^-".parseAnnotatedString()
             ),
         )
     ),
@@ -181,96 +105,51 @@ private val polyatomicIons = listOf(
         listOf(
             FlashcardData(
                 "Hypochlorite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("ClO")
-                    append("-", Superscript)
-                }
+                "ClO^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Chlorite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("ClO")
-                    append("2", Subscript)
-                    append("-", Superscript)
-                }
+                "ClO_2^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Chlorate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("ClO")
-                    append("3", Subscript)
-                    append("-", Superscript)
-                }
+                "ClO_3^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Perchlorate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("ClO")
-                    append("4", Subscript)
-                    append("-", Superscript)
-                }
+                "ClO_4^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Hypobromite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("BrO")
-                    append("-", Superscript)
-                }
+                "BrO^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Bromite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("BrO")
-                    append("2", Subscript)
-                    append("-", Superscript)
-                }
+                "BrO_2^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Bromate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("BrO")
-                    append("3", Subscript)
-                    append("-", Superscript)
-                }
+                "BrO_3^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Perbromate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("BrO")
-                    append("4", Subscript)
-                    append("-", Superscript)
-                }
+                "BrO_4^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Hypoiodite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("IO")
-                    append("-", Superscript)
-                }
+                "IO^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Iodite".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("IO")
-                    append("2", Subscript)
-                    append("-", Superscript)
-                }
+                "IO_2^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Iodate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("IO")
-                    append("3", Subscript)
-                    append("-", Superscript)
-                }
+                "IO_3^-".parseAnnotatedString()
             ),
             FlashcardData(
                 "Periodate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("IO")
-                    append("4", Subscript)
-                    append("-", Superscript)
-                }
+                "IO_4^-".parseAnnotatedString()
             ),
         )
     ),
@@ -279,29 +158,15 @@ private val polyatomicIons = listOf(
         listOf(
             FlashcardData(
                 "Chromate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("CrO")
-                    append("4", Subscript)
-                    append("2-", Superscript)
-                }
+                "CrO_4^{2-}".parseAnnotatedString()
             ),
             FlashcardData(
                 "Dichromate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("Cr")
-                    append("2", Subscript)
-                    append("O")
-                    append("7", Subscript)
-                    append("2-", Superscript)
-                }
+                "Cr_2O_7^{2-}".parseAnnotatedString()
             ),
             FlashcardData(
                 "Permanganate".toAnnotatedString(),
-                buildAnnotatedString {
-                    append("MnO")
-                    append("4", Subscript)
-                    append("-", Superscript)
-                }
+                "MnO_4^-".parseAnnotatedString()
             ),
         )
     )
